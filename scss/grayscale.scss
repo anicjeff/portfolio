@@ -418,3 +418,13 @@ body {
     box-shadow: 0 10px 0 rgba(0, 0, 0, 0.2);
   }
 }
+.darks {
+  background-color: black;
+  opacity: 0.5;
+}
+.darks:hover {
+  opacity: 1.0;
+}
+.card:hover {
+  box-shadow: -1px 7px 20px 0px rgba(0,0,0,0.8);
+}

@@ -445,4 +445,20 @@ body {
   box-shadow: 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* line 421, C:/laragon/www/portfolio/scss/grayscale.scss */
+.darks {
+  background-color: black;
+  opacity: 0.5;
+}
+
+/* line 425, C:/laragon/www/portfolio/scss/grayscale.scss */
+.darks:hover {
+  opacity: 1.0;
+}
+
+/* line 428, C:/laragon/www/portfolio/scss/grayscale.scss */
+.card:hover {
+  box-shadow: -1px 7px 20px 0px rgba(0, 0, 0, 0.8);
+}
+
 /*# sourceMappingURL=../css/grayscale.map */
