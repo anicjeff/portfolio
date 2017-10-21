@@ -204,8 +204,11 @@ a {
 
 .download-section {
   color: white;
-  background: url('../img/probg.png') no-repeat bottom center scroll;
-
+  background: #000000; /* Old Browsers */
+  background: -webkit-radial-gradient(bottom left,#000000,#2c2c2c); /*Safari 5.1-6*/
+  background: -o-radial-gradient(bottom left,#000000,#2c2c2c); /*Opera 11.1-12*/
+  background: -moz-radial-gradient(bottom left,#000000,#2c2c2c); /*Fx 3.6-15*/
+  background: radial-gradient(bottom left, #000000, #2c2c2c); /*Standard*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -313,10 +316,12 @@ body {
 .card {
   position: relative;
   max-width: 24rem;
+  margin-bottom: 10px;
   height: 350px;
   border: none;
-  color: black;
+  color: white;
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.5);
+  background-color: #242424;
 }
 .card .card-block {
   position: relative;
@@ -324,10 +329,10 @@ body {
 }
 .card .card-text {
   margin-bottom: 0;
-  color: black;
+  color: white;
 }
 .card .btn {
-  border-color:  #C200DF;
+  border: 0px;
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -348,7 +353,7 @@ body {
   height: 3rem;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
-  background-color: #C200DF;
+  background-color: #00B2C2;
 }
 .card .btn .icon {
 
@@ -363,4 +368,53 @@ body {
 }
 #projects {
   padding-top: 10vh;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+
+// timing functions
+$bounced-timing: cubic-bezier(.64,
+.57,
+.47,
+1.29);
+$back-timing: cubic-bezier(0.175,
+0.885,
+0.320,
+1.275);
+$ease-out-quint:cubic-bezier(0.230,
+1.000,
+0.320,
+1.000);
+$ease-in-quint:cubic-bezier(0.755,
+0.050,
+0.855,
+0.060);
+$time-fast: 0.1s;
+$time-mid: 0.6s;
+
+body {
+
+}
+
+
+
+// positioning button
+#button1 {
+
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.button {
+  display: block;
+  width: 340px;
+  height: 80px;
+  cursor: pointer;
+  transition: box-shadow $time-fast linear;
+  &:hover {
+    box-shadow: 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
 }

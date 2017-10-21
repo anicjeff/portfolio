@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
 /* line 3, C:/laragon/www/portfolio/scss/grayscale.scss */
 body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -221,32 +222,41 @@ a:focus, a:hover {
 /* line 205, C:/laragon/www/portfolio/scss/grayscale.scss */
 .download-section {
   color: white;
-  background: url("../img/probg.png") no-repeat bottom center scroll;
+  background: #000000;
+  /* Old Browsers */
+  background: -webkit-radial-gradient(bottom left, #000000, #2c2c2c);
+  /*Safari 5.1-6*/
+  background: -o-radial-gradient(bottom left, #000000, #2c2c2c);
+  /*Opera 11.1-12*/
+  background: -moz-radial-gradient(bottom left, #000000, #2c2c2c);
+  /*Fx 3.6-15*/
+  background: radial-gradient(bottom left, #000000, #2c2c2c);
+  /*Standard*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-/* line 215, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 218, C:/laragon/www/portfolio/scss/grayscale.scss */
 #map {
   width: 100%;
   height: 300px;
 }
 
 @media (min-width: 992px) {
-  /* line 220, C:/laragon/www/portfolio/scss/grayscale.scss */
+  /* line 223, C:/laragon/www/portfolio/scss/grayscale.scss */
   .content-section {
     padding-top: 200px;
     padding-bottom: 200px;
   }
-  /* line 224, C:/laragon/www/portfolio/scss/grayscale.scss */
+  /* line 227, C:/laragon/www/portfolio/scss/grayscale.scss */
   #map {
     height: 350px;
   }
 }
 
-/* line 229, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 232, C:/laragon/www/portfolio/scss/grayscale.scss */
 .btn {
   font-family: 'Droid Sans Mono', monospace;
   font-weight: 400;
@@ -257,14 +267,14 @@ a:focus, a:hover {
   border-radius: 0;
 }
 
-/* line 241, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 244, C:/laragon/www/portfolio/scss/grayscale.scss */
 .btn-default {
   color: #00B2C2;
   border: 1px solid #00B2C2;
   background-color: transparent;
 }
 
-/* line 245, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 248, C:/laragon/www/portfolio/scss/grayscale.scss */
 .btn-default:focus, .btn-default:hover {
   color: black;
   border: 1px solid #00B2C2;
@@ -272,104 +282,106 @@ a:focus, a:hover {
   background-color: #00B2C2;
 }
 
-/* line 254, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 257, C:/laragon/www/portfolio/scss/grayscale.scss */
 ul.banner-social-buttons {
   margin-top: 0;
 }
 
 @media (max-width: 1199px) {
-  /* line 254, C:/laragon/www/portfolio/scss/grayscale.scss */
+  /* line 257, C:/laragon/www/portfolio/scss/grayscale.scss */
   ul.banner-social-buttons {
     margin-top: 15px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 260, C:/laragon/www/portfolio/scss/grayscale.scss */
+  /* line 263, C:/laragon/www/portfolio/scss/grayscale.scss */
   ul.banner-social-buttons li {
     display: block;
     margin-bottom: 20px;
     padding: 0;
   }
-  /* line 265, C:/laragon/www/portfolio/scss/grayscale.scss */
+  /* line 268, C:/laragon/www/portfolio/scss/grayscale.scss */
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
 }
 
-/* line 272, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 275, C:/laragon/www/portfolio/scss/grayscale.scss */
 footer {
   padding: 50px 0;
 }
 
-/* line 274, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 277, C:/laragon/www/portfolio/scss/grayscale.scss */
 footer p {
   font-size: 14px;
   margin: 0;
 }
 
-/* line 281, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 284, C:/laragon/www/portfolio/scss/grayscale.scss */
 ::-moz-selection {
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
   text-shadow: none;
 }
 
-/* line 287, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 290, C:/laragon/www/portfolio/scss/grayscale.scss */
 ::selection {
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
   text-shadow: none;
 }
 
-/* line 293, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 296, C:/laragon/www/portfolio/scss/grayscale.scss */
 img::selection {
   background: transparent;
 }
 
-/* line 297, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 300, C:/laragon/www/portfolio/scss/grayscale.scss */
 img::-moz-selection {
   background: transparent;
 }
 
-/* line 301, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 304, C:/laragon/www/portfolio/scss/grayscale.scss */
 body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
 
 /**/
-/* line 306, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 309, C:/laragon/www/portfolio/scss/grayscale.scss */
 .logo {
   width: 15%;
   height: auto;
 }
 
 /* Project cards*/
-/* line 313, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 316, C:/laragon/www/portfolio/scss/grayscale.scss */
 .card {
   position: relative;
   max-width: 24rem;
+  margin-bottom: 10px;
   height: 350px;
   border: none;
-  color: black;
+  color: white;
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.5);
+  background-color: #242424;
 }
 
-/* line 321, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 326, C:/laragon/www/portfolio/scss/grayscale.scss */
 .card .card-block {
   position: relative;
   padding: 2rem;
 }
 
-/* line 325, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 330, C:/laragon/www/portfolio/scss/grayscale.scss */
 .card .card-text {
   margin-bottom: 0;
-  color: black;
+  color: white;
 }
 
-/* line 329, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 334, C:/laragon/www/portfolio/scss/grayscale.scss */
 .card .btn {
-  border-color: #C200DF;
+  border: 0px;
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -390,28 +402,47 @@ body {
   height: 3rem;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
-  background-color: #C200DF;
+  background-color: #00B2C2;
 }
 
-/* line 353, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 358, C:/laragon/www/portfolio/scss/grayscale.scss */
 .card .btn .icon {
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
 
-/* line 358, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 363, C:/laragon/www/portfolio/scss/grayscale.scss */
 #about {
   min-height: 100vh;
 }
 
-/* line 361, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 366, C:/laragon/www/portfolio/scss/grayscale.scss */
 #contact {
   min-height: 100vh;
 }
 
-/* line 364, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 369, C:/laragon/www/portfolio/scss/grayscale.scss */
 #projects {
   padding-top: 10vh;
+}
+
+/* line 406, C:/laragon/www/portfolio/scss/grayscale.scss */
+#button1 {
+  transform: translate3d(-50%, -50%, 0);
+}
+
+/* line 411, C:/laragon/www/portfolio/scss/grayscale.scss */
+.button {
+  display: block;
+  width: 340px;
+  height: 80px;
+  cursor: pointer;
+  transition: box-shadow 0.1s linear;
+}
+
+/* line 417, C:/laragon/www/portfolio/scss/grayscale.scss */
+.button:hover {
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=../css/grayscale.map */
