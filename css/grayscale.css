@@ -21,8 +21,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Droid Sans Mono', monospace;
+  font-weight: 400;
   margin: 0 0 35px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -60,7 +60,7 @@ a:focus, a:hover {
 
 /* line 62, C:/laragon/www/portfolio/scss/grayscale.scss */
 #mainNav {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Droid Sans Mono', monospace;
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -143,7 +143,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: url("../img/intro-bw.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -221,8 +221,7 @@ a:focus, a:hover {
 /* line 205, C:/laragon/www/portfolio/scss/grayscale.scss */
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
-  background-color: black;
+  background: url("../img/probg.png") no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -249,7 +248,7 @@ a:focus, a:hover {
 
 /* line 229, C:/laragon/www/portfolio/scss/grayscale.scss */
 .btn {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Droid Sans Mono', monospace;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -341,8 +340,78 @@ body {
 /**/
 /* line 306, C:/laragon/www/portfolio/scss/grayscale.scss */
 .logo {
-  width: 75%;
+  width: 15%;
   height: auto;
+}
+
+/* Project cards*/
+/* line 313, C:/laragon/www/portfolio/scss/grayscale.scss */
+.card {
+  position: relative;
+  max-width: 24rem;
+  height: 350px;
+  border: none;
+  color: black;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+/* line 321, C:/laragon/www/portfolio/scss/grayscale.scss */
+.card .card-block {
+  position: relative;
+  padding: 2rem;
+}
+
+/* line 325, C:/laragon/www/portfolio/scss/grayscale.scss */
+.card .card-text {
+  margin-bottom: 0;
+  color: black;
+}
+
+/* line 329, C:/laragon/www/portfolio/scss/grayscale.scss */
+.card .btn {
+  border-color: #C200DF;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  border-radius: 50%;
+  padding: 0;
+  width: 3rem;
+  height: 3rem;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  background-color: #C200DF;
+}
+
+/* line 353, C:/laragon/www/portfolio/scss/grayscale.scss */
+.card .btn .icon {
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+/* line 358, C:/laragon/www/portfolio/scss/grayscale.scss */
+#about {
+  min-height: 100vh;
+}
+
+/* line 361, C:/laragon/www/portfolio/scss/grayscale.scss */
+#contact {
+  min-height: 100vh;
+}
+
+/* line 364, C:/laragon/www/portfolio/scss/grayscale.scss */
+#projects {
+  padding-top: 10vh;
 }
 
 /*# sourceMappingURL=../css/grayscale.map */

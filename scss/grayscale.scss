@@ -23,8 +23,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Droid Sans Mono', monospace;
+  font-weight: 400;
 
   margin: 0 0 35px;
 
@@ -60,7 +60,7 @@ a {
 }
 
 #mainNav {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Droid Sans Mono', monospace;
 
   margin-bottom: 0;
 
@@ -137,7 +137,7 @@ a {
   text-align: center;
 
   color: white;
-  background: url('../img/intro-bg.jpg') no-repeat bottom center scroll;
+  background: url('../img/intro-bw.jpg') no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -204,8 +204,8 @@ a {
 
 .download-section {
   color: white;
-  background: url('../img/downloads-bg.jpg') no-repeat center center scroll;
-  background-color: black;
+  background: url('../img/probg.png') no-repeat bottom center scroll;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -227,7 +227,7 @@ a {
 }
 
 .btn {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Droid Sans Mono', monospace;
   font-weight: 400;
 
   -webkit-transition: all 0.3s ease-in-out;
@@ -304,6 +304,63 @@ body {
 
 /**/
 .logo {
-  width:75%;
+  width:15%;
   height: auto;
+}
+
+
+/* Project cards*/
+.card {
+  position: relative;
+  max-width: 24rem;
+  height: 350px;
+  border: none;
+  color: black;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.5);
+}
+.card .card-block {
+  position: relative;
+  padding: 2rem;
+}
+.card .card-text {
+  margin-bottom: 0;
+  color: black;
+}
+.card .btn {
+  border-color:  #C200DF;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  border-radius: 50%;
+  padding: 0;
+  width: 3rem;
+  height: 3rem;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  background-color: #C200DF;
+}
+.card .btn .icon {
+
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+#about {
+  min-height: 100vh;
+}
+#contact {
+  min-height: 100vh;
+}
+#projects {
+  padding-top: 10vh;
 }
