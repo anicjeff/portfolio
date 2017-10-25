@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
 /* line 4, C:/laragon/www/portfolio/scss/grayscale.scss */
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ovo', serif;
   position: relative;
   width: 100%;
   height: 100%;
@@ -22,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Alice', serif;
+  font-family: 'Syncopate', sans-serif;
   font-weight: 400;
   margin: 0 0 35px;
   letter-spacing: 1px;
@@ -33,7 +32,7 @@ h6 {
 p {
   font-size: 14px;
   line-height: 1.5;
-  font-family: 'Alice', serif;
+  font-family: 'Ovo', serif;
   margin: 0 0 25px;
 }
 
@@ -62,7 +61,7 @@ a:focus, a:hover {
 
 /* line 63, C:/laragon/www/portfolio/scss/grayscale.scss */
 #mainNav {
-  font-family: 'Droid Sans Mono', monospace;
+  font-family: 'Syncopate', sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -259,7 +258,7 @@ a:focus, a:hover {
 
 /* line 233, C:/laragon/www/portfolio/scss/grayscale.scss */
 .btn {
-  font-family: 'Droid Sans Mono', monospace;
+  font-family: 'Syncopate', sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -375,12 +374,20 @@ body {
 }
 
 /* line 331, C:/laragon/www/portfolio/scss/grayscale.scss */
+.card-title {
+  font-family: 'Syncopate', sans-serif;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+/* line 336, C:/laragon/www/portfolio/scss/grayscale.scss */
 .card .card-text {
   margin-bottom: 0;
   color: white;
+  font-size: 14px;
 }
 
-/* line 335, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 341, C:/laragon/www/portfolio/scss/grayscale.scss */
 .card .btn {
   border: 0px;
   position: absolute;
@@ -406,33 +413,33 @@ body {
   background-color: #00B2C2;
 }
 
-/* line 359, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 365, C:/laragon/www/portfolio/scss/grayscale.scss */
 .card .btn .icon {
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
 
-/* line 364, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 370, C:/laragon/www/portfolio/scss/grayscale.scss */
 #about {
   min-height: 100vh;
 }
 
-/* line 367, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 373, C:/laragon/www/portfolio/scss/grayscale.scss */
 #contact {
   min-height: 100vh;
 }
 
-/* line 370, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 376, C:/laragon/www/portfolio/scss/grayscale.scss */
 #projects {
   padding-top: 10vh;
 }
 
-/* line 405, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 411, C:/laragon/www/portfolio/scss/grayscale.scss */
 #button1 {
   transform: translate3d(-50%, -50%, 0);
 }
 
-/* line 410, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 416, C:/laragon/www/portfolio/scss/grayscale.scss */
 .button {
   display: block;
   width: 340px;
@@ -441,25 +448,31 @@ body {
   transition: box-shadow 0.1s linear;
 }
 
-/* line 416, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 422, C:/laragon/www/portfolio/scss/grayscale.scss */
 .button:hover {
   box-shadow: 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 420, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 426, C:/laragon/www/portfolio/scss/grayscale.scss */
 .darks {
   background-color: black;
   opacity: 0.5;
 }
 
-/* line 424, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 430, C:/laragon/www/portfolio/scss/grayscale.scss */
 .darks:hover {
   opacity: 1.0;
 }
 
-/* line 427, C:/laragon/www/portfolio/scss/grayscale.scss */
+/* line 433, C:/laragon/www/portfolio/scss/grayscale.scss */
 .card:hover {
   box-shadow: -1px 7px 20px 0px rgba(0, 0, 0, 0.8);
+}
+
+/* line 436, C:/laragon/www/portfolio/scss/grayscale.scss */
+.footer {
+  height: 1vh;
+  color: grey;
 }
 
 /*# sourceMappingURL=../css/grayscale.map */

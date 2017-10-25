@@ -2,7 +2,7 @@
 @import 'mixins.scss';
 
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ovo', serif;
 
   position: relative;
 
@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Alice', serif;
+  font-family: 'Syncopate', sans-serif;
   font-weight: 400;
 
   margin: 0 0 35px;
@@ -36,7 +36,7 @@ h6 {
 p {
   font-size: 14px;
   line-height: 1.5;
-  font-family: 'Alice', serif;
+  font-family: 'Ovo', serif;
   margin: 0 0 25px;
   @media(min-width: 768px) {
     font-size: 18px;
@@ -61,7 +61,7 @@ a {
 }
 
 #mainNav {
-  font-family: 'Droid Sans Mono', monospace;
+  font-family: 'Syncopate', sans-serif;
 
   margin-bottom: 0;
 
@@ -231,7 +231,7 @@ a {
 }
 
 .btn {
-  font-family: 'Droid Sans Mono', monospace;
+  font-family: 'Syncopate', sans-serif;
   font-weight: 400;
 
   -webkit-transition: all 0.3s ease-in-out;
@@ -328,9 +328,15 @@ body {
   position: relative;
   padding: 2rem;
 }
+.card-title {
+  font-family: 'Syncopate', sans-serif;
+  text-decoration: underline;
+  font-size: 16px;
+}
 .card .card-text {
   margin-bottom: 0;
   color: white;
+  font-size: 14px;
 }
 .card .btn {
   border: 0px;
@@ -375,7 +381,7 @@ body {
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+
 
 // timing functions
 $bounced-timing: cubic-bezier(.64,
@@ -426,4 +432,8 @@ $time-mid: 0.6s;
 }
 .card:hover {
   box-shadow: -1px 7px 20px 0px rgba(0,0,0,0.8);
+}
+.footer {
+  height: 1vh;
+  color: grey;
 }
